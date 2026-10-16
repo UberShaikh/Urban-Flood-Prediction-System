@@ -1,0 +1,9 @@
+{
+  "city": "mumbai",
+  "seq_len": 72,
+  "latent_dim": 32,
+  "epochs": 500,
+  "final_g_loss": 6.087,
+  "final_d_loss": 0.0045,
+  "model_path": "models/gan/rainfall_gan_mumbai.keras"
+}

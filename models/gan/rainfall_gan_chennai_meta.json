@@ -1,0 +1,9 @@
+{
+  "city": "chennai",
+  "seq_len": 72,
+  "latent_dim": 32,
+  "epochs": 500,
+  "final_g_loss": 6.03,
+  "final_d_loss": 0.005,
+  "model_path": "models/gan/rainfall_gan_chennai.keras"
+}

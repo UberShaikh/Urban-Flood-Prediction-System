@@ -1,0 +1,9 @@
+{
+  "city": "bengaluru",
+  "seq_len": 72,
+  "latent_dim": 32,
+  "epochs": 500,
+  "final_g_loss": 6.3097,
+  "final_d_loss": 0.0044,
+  "model_path": "models/gan/rainfall_gan_bengaluru.keras"
+}

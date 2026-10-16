@@ -1,0 +1,76 @@
+{
+  "dataset": "v1.1 Sen1Floods11 flood_handlabeled",
+  "patch_size": 64,
+  "patch_stride": 64,
+  "max_patches_per_split": 25000,
+  "features": [
+    "vv_mean",
+    "vv_std",
+    "vv_min",
+    "vv_max",
+    "vv_p10",
+    "vv_p50",
+    "vv_p90",
+    "vh_mean",
+    "vh_std",
+    "vh_min",
+    "vh_max",
+    "vh_p10",
+    "vh_p50",
+    "vh_p90",
+    "vv_vh_diff_mean",
+    "vv_vh_ratio_mean",
+    "dark_vv_fraction",
+    "dark_vh_fraction"
+  ],
+  "classification_report": {
+    "Low Risk": {
+      "precision": 0.8016447368421052,
+      "recall": 0.8334473324213406,
+      "f1-score": 0.8172367538564722,
+      "support": 2924.0
+    },
+    "Moderate Risk": {
+      "precision": 0.6430348258706468,
+      "recall": 0.6320293398533008,
+      "f1-score": 0.6374845869297164,
+      "support": 1636.0
+    },
+    "High Risk": {
+      "precision": 0.8530612244897959,
+      "recall": 0.7618469015795869,
+      "f1-score": 0.8048780487804879,
+      "support": 823.0
+    },
+    "accuracy": 0.7612855285156975,
+    "macro avg": {
+      "precision": 0.7659135957341826,
+      "recall": 0.7424411912847427,
+      "f1-score": 0.7531997965222255,
+      "support": 5383.0
+    },
+    "weighted avg": {
+      "precision": 0.7613010539486895,
+      "recall": 0.7612855285156975,
+      "f1-score": 0.7607170140515851,
+      "support": 5383.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2437,
+      450,
+      37
+    ],
+    [
+      531,
+      1034,
+      71
+    ],
+    [
+      72,
+      124,
+      627
+    ]
+  ]
+}

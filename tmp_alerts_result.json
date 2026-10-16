@@ -1,0 +1,50 @@
+﻿{
+    "status":  "SUCCESS",
+    "alerts":  [
+                   {
+                       "city":  "PUNE",
+                       "risk_level":  "LOW RISK â SAFE",
+                       "probability":  0.01,
+                       "action":  "No action needed",
+                       "total_rain_72h":  0.0,
+                       "forecast_24h":  0.0,
+                       "timestamp":  "2026-04-08 22:19:37",
+                       "id":  "alert_pune_221937"
+                   },
+                   {
+                       "city":  "MUMBAI",
+                       "risk_level":  "LOW RISK â SAFE",
+                       "probability":  0.01,
+                       "action":  "No action needed",
+                       "total_rain_72h":  0.4,
+                       "forecast_24h":  2.2,
+                       "timestamp":  "2026-04-08 22:19:41",
+                       "id":  "alert_mumbai_221941"
+                   },
+                   {
+                       "city":  "BENGALURU",
+                       "risk_level":  "LOW RISK â SAFE",
+                       "probability":  0.01,
+                       "action":  "No action needed",
+                       "total_rain_72h":  0.0,
+                       "forecast_24h":  0.0,
+                       "timestamp":  "2026-04-08 22:19:42",
+                       "id":  "alert_bengaluru_221943"
+                   },
+                   {
+                       "city":  "CHENNAI",
+                       "risk_level":  "LOW RISK â SAFE",
+                       "probability":  0.01,
+                       "action":  "No action needed",
+                       "total_rain_72h":  10.2,
+                       "forecast_24h":  0.0,
+                       "timestamp":  "2026-04-08 22:19:45",
+                       "id":  "alert_chennai_221945"
+                   }
+               ],
+    "summary":  {
+                    "critical":  0,
+                    "warning":  0,
+                    "clear":  4
+                }
+}

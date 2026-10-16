@@ -1,0 +1,6 @@
+{
+    "lstm_accuracy": "89.4%",
+    "resnet50_accuracy": "94.8%",
+    "resnet50_segmentation_accuracy": "93.63%",
+    "resnet50_segmentation_iou": "33.43%"
+}

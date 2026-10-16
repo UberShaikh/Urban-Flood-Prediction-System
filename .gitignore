@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+Lib/
+Scripts/
+etc/
+share/
+Include/
+pip-selfcheck.json
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Configuration / Secrets
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Large Model Files (H5, PKL)
+# These are often > 100MB and should be handled via Git LFS
+models/**/*.h5
+models/**/*.pkl
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+
+# Data and Outputs
+data/raw/
+data/processed/
+outputs/
+*.log
+grep_results.txt
+
+# Editor / IDE
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

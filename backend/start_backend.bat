@@ -1,0 +1,13 @@
+@echo off
+echo Starting AquaAlert Backend on port 8001...
+cd /d "c:\Projects\pa_new\backend"
+
+echo Ensuring twilio is installed...
+C:\Python314\python.exe -m pip install twilio --quiet
+
+echo Verifying Twilio import...
+C:\Python314\python.exe -c "from twilio.rest import Client; print('[startup] Twilio loaded successfully')"
+
+echo Launching FastAPI with uvicorn...
+C:\Python314\python.exe -m uvicorn app:app --host 0.0.0.0 --port 8001 --reload
+pause
